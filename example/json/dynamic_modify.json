@@ -1,0 +1,70 @@
+{
+    "cursor": 12,
+    "errmsg": "succ",
+    "errno": 123,
+    "has_more": 0,
+    "list": [
+        {
+            "category": 1,
+            "fs_id": 233030362962066,
+            "isdir": 0,
+            "md5": "4fe485d1b4956a697c18b9b83cf726ad",
+            "path": "/来自：海康智存/头号玩家.ready.player.one.2018.720p.x264.双语字幕-深影字幕组.mp4",
+            "server_ctime": 1548579624,
+            "server_filename": "头号玩家.ready.player.one.2018.720p.x264.双语字幕-深影字幕组.mp4",
+            "server_mtime": 1550805308,
+            "size": 2379166349,
+            "thumbs": [
+                {
+                    "icon": "https://thumbnail0.baidupcs.com/thumbnail/4fe485d1b4956a697c18b9b83cf726ad?fid=3389535607-250528-233030362962066&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-%2FuWm3ClfqnDHqEZJuaaK95yafyA%3D&expires=8h&chkbd=0&chkv=0&dp-logid=2593591034729158962&dp-callid=0&time=1551751200&size=c60_u60&quality=100&vuk=3389535607&ft=video",
+                    "url1": "https://thumbnail0.baidupcs.com/thumbnail/4fe485d1b4956a697c18b9b83cf726ad?fid=3389535607-250528-233030362962066&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-%2FuWm3ClfqnDHqEZJuaaK95yafyA%3D&expires=8h&chkbd=0&chkv=0&dp-logid=2593591034729158962&dp-callid=0&time=1551751200&size=c140_u90&quality=100&vuk=3389535607&ft=video",
+                    "url2": "https://thumbnail0.baidupcs.com/thumbnail/4fe485d1b4956a697c18b9b83cf726ad?fid=3389535607-250528-233030362962066&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-%2FuWm3ClfqnDHqEZJuaaK95yafyA%3D&expires=8h&chkbd=0&chkv=0&dp-logid=2593591034729158962&dp-callid=0&time=1551751200&size=c360_u270&quality=100&vuk=3389535607&ft=video",
+                    "url3": "https://thumbnail0.baidupcs.com/thumbnail/4fe485d1b4956a697c18b9b83cf726ad?fid=3389535607-250528-233030362962066&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-%2FuWm3ClfqnDHqEZJuaaK95yafyA%3D&expires=8h&chkbd=0&chkv=0&dp-logid=2593591034729158962&dp-callid=0&time=1551751200&size=c850_u580&quality=100&vuk=3389535607&ft=video"
+                },
+                {
+                    "icon": "ick",
+                    "url1": "ttt",
+                    "url2": "fhs",
+                    "url3": "yyy"
+                }
+            ]
+        },
+        {
+            "category": 6,
+            "fs_id": 45991209026214,
+            "isdir": 0,
+            "md5": "",
+            "path": "/来自：海康智存/example002",
+            "server_ctime": 1550805134,
+            "server_filename": "test002",
+            "server_mtime": 1550805134,
+            "size": 0,
+            "thumbs": [
+                {
+                    "icon": "111",
+                    "url1": "222",
+                    "url2": "333",
+                    "url3": "444"
+                },
+                {
+                    "icon": "xxx",
+                    "url1": "yyy",
+                    "url2": "zzz",
+                    "url3": "ttt"
+                }
+            ]
+        },
+        {
+            "category": 7,
+            "fs_id": 43534535,
+            "isdir": 1,
+            "md5": "",
+            "path": "/来自：海康智存/example0ggg0ggggg2",
+            "server_ctime": 1550805224,
+            "server_filename": "test002",
+            "server_mtime": 1550805334,
+            "size": 0
+        }
+    ],
+    "request_id": "2593435083592166397"
+}

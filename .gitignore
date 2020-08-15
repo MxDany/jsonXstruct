@@ -1,0 +1,12 @@
+.vscode
+builds/vs2019/.vs
+builds/vs2019/Debug
+builds/vs2019/jsonXstruct/Debug
+builds/vs2019/example/Debug
+*.o
+*.so*
+*.a
+*.log
+test/*
+!test/*.c
+!test/json
