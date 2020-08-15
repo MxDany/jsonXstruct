@@ -65,7 +65,7 @@ typedef enum jxs_type {
 	jxs_type_array,   /**< array type(Internal type, you should never use it) */
 } jxs_type;
 
-/* mapper item id, corresponds to a member of the struct. */
+/* mapper item, corresponds to a member of the struct. */
 typedef struct _jmap_item   jxs_item;
 
 /* struct mapper, corresponds to a struct. */
@@ -95,20 +95,6 @@ JSONXSTRUCT_API void jxs_set_log_callback(void (*callback)(int, const char *, va
  * @return opaque userdata(void *)
  */
 JSONXSTRUCT_API void *jxs_get_userdata(void *context);
-
-/**
- * @param context   mapper context
- * @param[in]  st_sptr   struct's start pointer
- * @param[in]  mb_sptr   struct's member start pointer
- * @param[in]  arr_depth array current depth
- * @param[out] st_cptr   struct's current pointer
- * @param[out] mb_cptr   struct's member current pointer
- * @brief jsonXstruct foreach handler, You can use it when you convert from struct
- * to json. Especially when you need to drop a json_object under certain condition.
- *
- * @return current locator(A human-readable string used to indicate the current position)
- */
-
 
 /**
  * @brief JSON to struct conversion functions, you can use these functions to
