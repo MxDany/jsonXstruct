@@ -24,7 +24,7 @@ Struct members must be fixed-size, and currently cannot support dynamically type
 
 ### build json-c
 
-First, you need to compile the [json-c](https://github.com/json-c/json-c) library, for example, we downloaded the `json-c-json-c-0.14-20200419.tar.gz` source code, we cloud build it in linux like this(cmake is required):
+First, you need to compile the [json-c](https://github.com/json-c/json-c) library, for example, we downloaded the `json-c-json-c-0.14-20200419.tar.gz` source code, we could build it in linux like this(cmake is required):
 
 ```shell
 tar -xvf json-c-json-c-0.14-20200419.tar.gz
@@ -45,7 +45,7 @@ Since the current cross-platform compilation script is not fully completed yet. 
 
 We will demonstrate how to compile the linux `jsonXstruct` library below:
 
-- step 1: put the json-c install file in the project
+- step 1: put the json-c install file in the project `deps` path
 
   ```shell
   .
@@ -85,7 +85,7 @@ We will demonstrate how to compile the linux `jsonXstruct` library below:
   └── libjsonXstruct.so.0.0.1
   ```
 
-  `jsonXstruct.h` is the external interface header file.
+  `jsonXstruct.h` is the external interface header file, `jsonXstruct_priv.h` is a private header file, no longer needed in future use.
 
 ## Typical usage
 
@@ -237,7 +237,7 @@ int main(void)
 
   **Program behavior description:**
 
-  1. `struct_descriptor()` is a callback function, used to describe the struct.
+  1. `struct_descriptor()` is a callback function, used to describe the struct in a series of human-readable APIs.
 
   2. `jxs_mapper` is struct mapper, each structure corresponds to a mapper. use `jxs_map_new()` to new a mapper, to associated struct and mapper.
 
@@ -260,4 +260,4 @@ int main(void)
 
   4. In the `main()` function. Pass `struct_descriptor()` to `jxs_struct_x_file()`, Indicates that the `bst` struct is resolved according to this `struct_descriptor()`. `JSON_C_TO_STRING_PRETTY` to pretty output json data to the file. it support by json-c.
 
-**For more API usage, you can refer to the example and `jsonXstruct.h` function use description.**
+**For more API usage, you can refer to the example and `jsonXstruct.h` function description.**
